@@ -18,4 +18,8 @@ const hero = {
 // masud.treat(500);
 
 const heroTreat = masud.treat.bind(hero);
-console.log(heroTreat(500));
+// console.log(heroTreat(500));
+
+console.log(masud);
+
+// only the method treat was borrowed by object hero but not set as its property;
